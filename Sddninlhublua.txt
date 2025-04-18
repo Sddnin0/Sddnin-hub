@@ -316,7 +316,7 @@ local v15 = v14:CreateWindow({
     Title = "Sddnin Hub",
     SubTitle = "",
     TabWidth = 160,
-    Theme = "Light",
+    Theme = "Violet",
     Acrylic = false,
     Size = UDim2.fromOffset(500, 320),
     MinimizeKey = Enum.KeyCode.End
@@ -398,14 +398,14 @@ end
 function CheckLevel()
     local v197 = game:GetService("Players").LocalPlayer.Data.Level.Value;
     if Sea1 then
-        if ((v197 == 1) or (v197 <= 9) or (SelectMonster == "Bandit")) then
+        if ((v197 == 1) or (v197 <= 10) or (SelectMonster == "Bandit")) then
             Ms = "Bandit";
             NameQuest = "BanditQuest1";
             QuestLv = 1;
             NameMon = "Bandit";
             CFrameQ = CFrame.new(1060.9383544922, 16.455066680908, 1547.7841796875);
             CFrameMon = CFrame.new(1038.5533447266, 41.296249389648, 1576.5098876953);
-        elseif ((v197 == 10) or (v197 <= 14) or (SelectMonster == "Monkeys")) then
+        elseif ((v197 == 10) or (v197 <= 15) or (SelectMonster == "Monkeys")) then
             Ms = "Monkeys";
             NameQuest = "Adventurer";
             QuestLv = 1;
